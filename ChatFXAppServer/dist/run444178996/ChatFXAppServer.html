@@ -1,0 +1,47 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'ChatFXAppServer.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iQ2hhdEZYQXBwU2VydmVyLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPkNoYXRGWEFwcFNlcnZlcjwvdGl0bGU+DQogICAgPHZlbmRvcj5TaGVtbzwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBqYXZhLXZtLWFyZ3M9Ii1EamF2YS5ybWkuc2VydmVyLmhvc3RuYW1lPTE5Mi4xNjguNDMuMTcxIC1EamF2YS5zZWN1cml0eS5wb2xpY3k9c2VydmVyLnBvbGljeSAiICBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJDaGF0RlhBcHBTZXJ2ZXIuamFyIiBzaXplPSIyODE3MDE1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcQ29sbGVjdGlvLmphciIgc2l6ZT0iMTc4MzE0IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcb2pkYmM2LmphciIgc2l6ZT0iMjczOTY3MCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXG9yZy1hcGFjaGUtY29tbW9ucy1sb2dnaW5nLmphciIgc2l6ZT0iNjA3ODYiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxybWlpby0yLjAuNC5qYXIiIHNpemU9IjEwOTcwMiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJDaGF0RlhBcHBTZXJ2ZXIiID4NCiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+DQogIDwvYXBwbGV0LWRlc2M+DQogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjaGF0ZnhhcHBzZXJ2ZXIuQ2hhdEZYQXBwU2VydmVyIiAgbmFtZT0iQ2hhdEZYQXBwU2VydmVyIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+',
+                jvmargs : '-Djava.rmi.server.hostname=192.168.43.171 -Djava.security.policy=server.policy '
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedchatfxappserver() {
+        dtjava.embed(
+            {
+                id : 'chatfxappserver',
+                url : 'ChatFXAppServer.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iQ2hhdEZYQXBwU2VydmVyLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPkNoYXRGWEFwcFNlcnZlcjwvdGl0bGU+DQogICAgPHZlbmRvcj5TaGVtbzwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBqYXZhLXZtLWFyZ3M9Ii1EamF2YS5ybWkuc2VydmVyLmhvc3RuYW1lPTE5Mi4xNjguNDMuMTcxIC1EamF2YS5zZWN1cml0eS5wb2xpY3k9c2VydmVyLnBvbGljeSAiICBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJDaGF0RlhBcHBTZXJ2ZXIuamFyIiBzaXplPSIyODE3MDE1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcQ29sbGVjdGlvLmphciIgc2l6ZT0iMTc4MzE0IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcb2pkYmM2LmphciIgc2l6ZT0iMjczOTY3MCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXG9yZy1hcGFjaGUtY29tbW9ucy1sb2dnaW5nLmphciIgc2l6ZT0iNjA3ODYiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxybWlpby0yLjAuNC5qYXIiIHNpemU9IjEwOTcwMiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJDaGF0RlhBcHBTZXJ2ZXIiID4NCiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+DQogIDwvYXBwbGV0LWRlc2M+DQogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjaGF0ZnhhcHBzZXJ2ZXIuQ2hhdEZYQXBwU2VydmVyIiAgbmFtZT0iQ2hhdEZYQXBwU2VydmVyIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+',
+                jvmargs : '-Djava.rmi.server.hostname=192.168.43.171 -Djava.security.policy=server.policy '
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedchatfxappserver);
+</script>
+
+</head><body>
+<h2>Test page for <b>ChatFXAppServer</b></h2>
+  <b>Webstart:</b> <a href='ChatFXAppServer.jnlp' onclick="return launchApplication('ChatFXAppServer.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

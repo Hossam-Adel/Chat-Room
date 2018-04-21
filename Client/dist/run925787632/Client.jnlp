@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Client.jnlp">
+  <information>
+    <title>Client</title>
+    <vendor>Ahmed Ali</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Client.jar" size="577797" download="eager" />
+    <jar href="lib\Collectio.jar" size="178314" download="eager" />
+    <jar href="lib\org-apache-commons-logging.jar" size="60786" download="eager" />
+    <jar href="lib\rmiio-2.0.4.jar" size="109702" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Client" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="client.Client"  name="Client" />
+  <update check="always"/>
+</jnlp>

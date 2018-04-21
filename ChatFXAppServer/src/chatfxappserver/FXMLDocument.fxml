@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="login_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #253156;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chatfxappserver.FXMLDocumentController">
+   <children>
+      <HBox fx:id="headerbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="57.0" prefWidth="600.0" style="-fx-background-color: #253156;">
+         <children>
+            <ImageView fx:id="minimizeIcon" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#minimize" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="500.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="closeIcon" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#closeWindow" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <Button fx:id="siginin" layoutX="236.0" layoutY="414.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#loginAction" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #00ced1;" text="signin" />
+      <PasswordField fx:id="login_password" layoutX="208.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="264.0" />
+      <TextField fx:id="login_email" layoutX="208.0" layoutY="181.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="254.0" />
+      <Label fx:id="label" layoutX="272.0" layoutY="147.0" prefHeight="27.0" prefWidth="137.0" textFill="#f20b0b" />
+      <Label layoutX="53.0" layoutY="188.0" text="User Name" textFill="WHITE" />
+      <Label layoutX="64.0" layoutY="270.0" text="Password" textFill="WHITE" />
+      <Label layoutX="54.0" layoutY="82.0" prefHeight="27.0" prefWidth="177.0" text="Admin Login" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+compile.on.save=true
+do.depend=false
+do.jar=true
+<<<<<<< working copy
+file.reference.rmiio-2.0.4.jar=C:\\Users\\Shemo\\Desktop\\30-12-17\\rmiio-2.0.4.jar
+javac.debug=true
+javadoc.preview=true
+user.properties.file=C:\\Users\\Shemo\\AppData\\Roaming\\NetBeans\\8.2\\build.properties
+=======
+javac.debug=true
+javadoc.preview=true
+user.properties.file=C:\\Users\\Hossam\\AppData\\Roaming\\NetBeans\\8.2\\build.properties
+>>>>>>> merge rev

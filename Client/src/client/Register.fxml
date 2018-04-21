@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="register_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="698.0" prefWidth="600.0" style="-fx-background-color: #253156;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.RegisterController">
+    <children>
+            <Button fx:id="register" layoutX="174.0" layoutY="633.0" onAction="#handleButtonAction" text="register" />
+            <TextField fx:id="first_name" layoutX="178.0" layoutY="102.0" />
+            <TextField fx:id="last_name" layoutX="178.0" layoutY="165.0" />
+            <TextField fx:id="email" layoutX="178.0" layoutY="227.0" />
+            <ImageView fx:id="view" fitHeight="103.0" fitWidth="97.0" layoutX="179.0" layoutY="496.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="92.0" layoutY="108.0" text="First name" textFill="WHITE" />
+            <Label layoutX="93.0" layoutY="171.0" text="Last name" textFill="WHITE" />
+            <Label layoutX="130.0" layoutY="233.0" text="email" textFill="WHITE" />
+            <Label layoutX="114.0" layoutY="294.0" text="country" textFill="WHITE" />
+            <Label layoutX="116.0" layoutY="341.0" text="gender" textFill="WHITE" />
+            <Label layoutX="97.0" layoutY="393.0" text="password" textFill="WHITE" />
+            <Label layoutX="30.0" layoutY="450.0" prefHeight="39.0" prefWidth="150.0" text="confirm password" textFill="WHITE" />
+            <ComboBox fx:id="box" layoutX="180.0" layoutY="335.0" prefWidth="150.0" />
+            <Button fx:id="cancel" layoutX="288.0" layoutY="633.0" onAction="#cancelAction" text="cancel" />
+            <Label fx:id="passwords_match" layoutX="402.0" layoutY="456.0" text="passwords don't match" textFill="#e40d0d" visible="false" />
+            <Label fx:id="invalid_email" layoutX="402.0" layoutY="239.0" text="invalid email" textFill="#e80c0c" visible="false" />
+            <Label fx:id="empty" layoutX="180.0" layoutY="64.0" text="please enter your data" textFill="#e80606" visible="false" />
+      <Label layoutX="88.0" layoutY="521.0" text="add image" textFill="WHITE" />
+      <ImageView fx:id="insert" fitHeight="55.0" fitWidth="57.0" layoutX="277.0" layoutY="520.0" onMouseClicked="#insertImage" pickOnBounds="true" preserveRatio="true" />
+      <ComboBox fx:id="country" layoutX="178.0" layoutY="290.0" prefWidth="150.0" />
+      <PasswordField fx:id="password" layoutX="178.0" layoutY="389.0" />
+      <PasswordField fx:id="confirm_password" layoutX="178.0" layoutY="451.0" />
+         </children>
+      </AnchorPane>

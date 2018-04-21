@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="686.0" prefWidth="386.0" style="-fx-background-color: #253156;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane layoutX="-1.0" layoutY="169.0" prefHeight="418.0" prefWidth="386.0">
+         <content>
+            <VBox fx:id="vbox" prefHeight="409.0" prefWidth="379.0" />
+         </content>
+      </ScrollPane>
+      <Pane prefHeight="64.0" prefWidth="386.0" style="-fx-background-color: #00CED1;">
+         <children>
+            <Label layoutY="-1.0" prefHeight="49.0" prefWidth="192.0" text="Lite Chat" textFill="#253156">
+               <font>
+                  <Font size="45.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="fist" fitHeight="30.0" fitWidth="30.0" layoutX="338.0" layoutY="17.0" onMouseClicked="#exit" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cancel.png" />
+               </image></ImageView>
+            <ImageView fx:id="raise" fitHeight="30.0" fitWidth="30.0" layoutX="301.0" layoutY="17.0" onMouseClicked="#mini" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@mini.png" />
+               </image></ImageView>
+
+         </children></Pane>
+      <TextField fx:id="TextField" layoutX="-1.0" layoutY="626.0" onKeyPressed="#handleEnter" prefHeight="57.0" prefWidth="306.0" promptText="Enter your message ...." />
+      <Label fx:id="friendNameLbl" layoutX="134.0" layoutY="96.0" prefHeight="32.0" prefWidth="137.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <ImageView fx:id="imgv" fitHeight="81.0" fitWidth="111.0" layoutX="14.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="sendFileBtn" layoutX="312.0" layoutY="642.0" mnemonicParsing="false" onAction="#sendFile" style="-fx-background-color: #00CED1;" text="Send File" />
+      <ColorPicker fx:id="color" layoutX="14.0" layoutY="592.0" onAction="#getSelectedColor" prefHeight="25.0" prefWidth="83.0" style="-fx-background-color: #00CED1;" />
+      <ComboBox fx:id="fontSize" layoutX="106.0" layoutY="592.0" onAction="#getSelectedSize" prefHeight="25.0" prefWidth="92.0" promptText="Font Size" style="-fx-background-color: #00CED1;" />
+      <ComboBox fx:id="fontFamily" layoutX="203.0" layoutY="592.0" onAction="#getfontFamily" prefHeight="25.0" prefWidth="103.0" promptText="Font Family" style="-fx-background-color: #00CED1;" />
+   </children>
+</AnchorPane>

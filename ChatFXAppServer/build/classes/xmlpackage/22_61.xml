@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><?xml-stylesheet type='text/xsl' href='history.xsl'?>
+<Chat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="chat.xsd">
+    <Message color="rgb(153,102,153)" font="Impact">
+        <Sender id="61">Hi Ahmed </Sender>
+        <Receiver id="22"/>
+    </Message>
+    <Message color="rgb(0,0,0)" font="Arial">
+        <Sender id="22">no</Sender>
+        <Receiver id="61"/>
+    </Message>
+    <Message color="rgb(153,102,153)" font="Impact">
+        <Sender id="61">Ahmed</Sender>
+        <Receiver id="22"/>
+    </Message>
+    <Message color="rgb(0,0,0)" font="Arial">
+        <Sender id="22">adsdasfasdf</Sender>
+        <Receiver id="61"/>
+    </Message>
+    <Message color="rgb(0,0,0)" font="Arial">
+        <Sender id="61">fgfgddgfdgfdg</Sender>
+        <Receiver id="22"/>
+    </Message>
+    <Message color="rgb(0,0,0)" font="Arial">
+        <Sender id="22">dfdsfdzbf</Sender>
+        <Receiver id="61"/>
+    </Message>
+    <Message color="rgb(0,0,0)" font="Arial">
+        <Sender id="22">jj</Sender>
+        <Receiver id="61"/>
+    </Message>
+    <Message color="rgb(0,0,0)" font="Arial">
+        <Sender id="61">duiawlusdas</Sender>
+        <Receiver id="22"/>
+    </Message>
+    <Message color="rgb(0,0,0)" font="Arial">
+        <Sender id="22">hi</Sender>
+        <Receiver id="61"/>
+    </Message>
+</Chat>

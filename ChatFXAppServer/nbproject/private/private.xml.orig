@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< working copy
+        <group/>
+        <file>file:/C:/Users/Shemo/Desktop/ChatApp/ChatFXAppServer/src/chatfxappserver/ChatFXAppServer.java</file>
+        <file>file:/C:/Users/Shemo/Desktop/ChatApp/ChatFXAppServer/src/model/Operations.java</file>
+        <file>file:/C:/Users/Shemo/Desktop/ChatApp/ChatFXAppServer/src/chatfxappserver/ServerFXMLController.java</file>
+        <file>file:/C:/Users/Shemo/Desktop/ChatApp/ChatFXAppServer/src/chatfxappserver/FXMLDocumentController.java</file>
+=======
+        <file>file:/C:/Users/Shemo/Desktop/ChatApp/ChatFXAppServer/src/chatfxappserver/ChatFXAppServer.java</file>
+        <file>file:/C:/Users/Shemo/Desktop/ChatApp/ChatFXAppServer/src/model/Operations.java</file>
+        <file>file:/C:/Users/Shemo/Desktop/ChatApp/ChatFXAppServer/src/chatfxappserver/ServerFXMLController.java</file>
+        <file>file:/C:/Users/Shemo/Desktop/ChatApp/ChatFXAppServer/src/chatfxappserver/FXMLDocumentController.java</file>
+        <group>
+            <file>file:/C:/Users/Ahmed%20Ali/Desktop/29-12-17%2010-09/ChatFXAppServer/src/chatfxappserver/FXMLDocumentController.java</file>
+            <file>file:/C:/Users/Ahmed%20Ali/Desktop/29-12-17%2010-09/ChatFXAppServer/src/chatfxappserver/ServerFXMLController.java</file>
+            <file>file:/C:/Users/Ahmed%20Ali/Desktop/29-12-17%2010-09/ChatFXAppServer/src/chatfxappserver/SaveChat.java</file>
+            <file>file:/C:/Users/Ahmed%20Ali/Desktop/29-12-17%2010-09/ChatFXAppServer/src/chatfxappserver/ChatServerImpl.java.orig</file>
+            <file>file:/C:/Users/Ahmed%20Ali/Desktop/29-12-17%2010-09/ChatFXAppServer/src/model/Operations.java</file>
+            <file>file:/C:/Users/Ahmed%20Ali/Desktop/29-12-17%2010-09/ChatFXAppServer/src/chatfxappserver/ChatServerImpl.java</file>
+            <file>file:/C:/Users/Ahmed%20Ali/Desktop/29-12-17%2010-09/ChatFXAppServer/src/chatfxappserver/ChatFXAppServer.java</file>
+            <file>file:/C:/Users/Ahmed%20Ali/Desktop/29-12-17%2010-09/ChatFXAppServer/src/generatedclasses/ChatType.java</file>
+            <file>file:/C:/Users/Ahmed%20Ali/Desktop/29-12-17%2010-09/ChatFXAppServer/src/model/Connector.java</file>
+        </group>
+>>>>>>> merge rev
+    </open-files>
+</project-private>
